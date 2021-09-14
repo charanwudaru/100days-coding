@@ -52,3 +52,11 @@ b=int(input())
 c=int(input())
 cost=c*(100*a+b)
 print(cost//100,cost%100)
+
+
+
+#H hours, M minutes and S seconds are passed since the midnight (0 ≤ H < 12, 0 ≤ M < 60, 0 ≤ S < 60). Determine the angle (in degrees) of the hour hand on the clock face right now.
+a = int(input())
+b = int(input())
+c = int(input())
+print((a*3600+b*60+c)/120)
