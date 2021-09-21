@@ -52,3 +52,29 @@ elif a == b or b == c or a == c:
     print(2)
 else:
     print(0)
+
+    
+   #Chess rook moves horizontally or vertically. Given two different cells of the chessboard, determine whether a rook can go from the first cell to the second in one move.
+#The program receives the input of four numbers from 1 to 8, each specifying the column and row number, first two - for the first cell, and then the last two - for the second cell. The program should output YES if a rook can go from the first cell to the second in one move, or NO otherwise.
+a=int(input())
+b=int(input())
+c=int(input())
+d=int(input())
+if (a==c) or (b==d):
+    print('YES')
+else:
+    print("NO")
+    
+   
+
+#Given two cells of a chessboard. If they are painted in one color, print the word YES, and if in a different color - NO.
+#The program receives the input of four numbers from 1 to 8, each specifying the column and row number, first two - for the first cell, and then the last two - for the second cell.
+a=int(input())
+b=int(input())
+c=int(input())
+d=int(input())
+if (a+b+c+d)%2 == 0:
+    print("YES")
+else:
+    print('NO')
+    
